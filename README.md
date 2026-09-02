@@ -6,32 +6,30 @@ La idea es simular el panel de una persona que administra un almacén: puede ver
 
 ## Demo en vivo
 
-https://tu-usuario.github.io/almacen-nortech/
+https://ze3aa.github.io/Almacen/
 
-(Reemplazar con el link una vez esté activado GitHub Pages)
-
-## Capturas de pantalla
+Capturas de pantalla
 
 Están todas en la carpeta `/evidencias`. Dejo algunas acá para que se vean directo en el README.
 
-### Escritorio
+PC
 ![vista de escritorio](./evidencias/desktop.png)
 
-### Escritorio con el menú lateral colapsado
+PC con el menú lateral colapsado
 ![menu colapsado](./evidencias/desktop-collapsed.png)
 
-### Tablet
+Tablet
 ![vista tablet](./evidencias/tablet.png)
 
-### Móvil
+CELULAR
 ![vista movil](./evidencias/mobile.png)
 
-### Móvil con el menú abierto
+CElULAR con el menú abierto
 ![menu movil abierto](./evidencias/mobile-menu-open.png)
 
-## Qué usé
+Qué usé?
 
-- HTML5 (etiquetas semánticas: header, aside, main, footer, nav)
+- HTML5 
 - CSS3
   - CSS Grid para armar la estructura general (sidebar, header, contenido, footer)
   - Flexbox para acomodar las cosas dentro de cada sección (las tarjetas, los links del menú, las filas de la tabla)
@@ -42,9 +40,8 @@ Están todas en la carpeta `/evidencias`. Dejo algunas acá para que se vean dir
   - Abrir/cerrar el menú en la versión móvil
   - Poner la fecha actual automáticamente
 
-No usé ningún framework (nada de Bootstrap, React, etc.) porque la idea del ejercicio era practicar CSS Grid y Flexbox directamente.
-
-## Estructura del dashboard
+No usé ningún framework
+Estructura del dashboard
 
 - **Sidebar**: el menú de navegación (Panel general, Inventario, Pedidos, Proveedores, Reportes, Configuración). Se puede colapsar para dejar solo los íconos.
 - **Header**: tiene el buscador, notificaciones y un botón para agregar una nueva entrada al inventario.
@@ -54,7 +51,7 @@ No usé ningún framework (nada de Bootstrap, React, etc.) porque la idea del ej
 - **Tabla de inventario**: los productos más recientes, con su SKU, categoría, stock y estado.
 - **Footer**: info básica y algunos links.
 
-## Por qué elegí estos colores y esta tipografía
+ Por qué elegí estos colores y esta tipografía
 
 Quería que se viera como un panel "de control", algo más técnico y oscuro, no el típico dashboard blanco con tarjetas redondeadas que se ve en todos lados. Por eso el fondo es azul oscuro casi negro.
 
@@ -66,7 +63,7 @@ Los colores sí tienen un propósito, no son solo decoración:
 
 Para la tipografía usé una fuente para los títulos y otra para el texto normal, y una fuente monoespaciada para los números y los códigos SKU, para que se alineen mejor en la tabla (como en un sistema real de inventario).
 
-## Cómo lo hice responsive
+Cómo lo hice responsive
 
 Puse dos media queries:
 
@@ -84,25 +81,3 @@ Traté de seguir buenas prácticas básicas de accesibilidad:
 - La imagen del avatar tiene su `alt`
 - Los íconos que son solo decorativos (y ya tienen un texto al lado explicando qué son) están marcados como `aria-hidden` para no generar ruido a quien usa lector de pantalla
 - Revisé que el contraste entre el texto y el fondo fuera legible
-
-## Cómo verlo
-
-Se puede clonar el repo y abrir `index.html` directo en el navegador, no necesita nada instalado:
-
-```
-git clone https://github.com/tu-usuario/almacen-nortech.git
-cd almacen-nortech
-```
-
-Y abrir el archivo `index.html`.
-
-## Archivos del proyecto
-
-```
-almacen-nortech/
-├── index.html      -> estructura del dashboard
-├── styles.css       -> todos los estilos
-├── script.js         -> la parte de interactividad (menú, etc)
-├── README.md
-└── evidencias/         -> capturas de escritorio, tablet y móvil
-```
