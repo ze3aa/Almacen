@@ -12,20 +12,6 @@ Capturas de pantalla
 
 Están todas en la carpeta `/evidencias`. Dejo algunas acá para que se vean directo en el README.
 
-PC
-![vista de escritorio](./evidencias/desktop.png)
-
-PC con el menú lateral colapsado
-![menu colapsado](./evidencias/desktop-collapsed.png)
-
-Tablet
-![vista tablet](./evidencias/tablet.png)
-
-CELULAR
-![vista movil](./evidencias/mobile.png)
-
-CElULAR con el menú abierto
-![menu movil abierto](./evidencias/mobile-menu-open.png)
 
 Qué usé?
 
